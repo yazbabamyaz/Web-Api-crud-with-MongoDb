@@ -1,0 +1,290 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\yazil\\Desktop\\Yazılım\\MustafaProje\\MongoDb\\CrudMongoDb\\CrudMongoDb.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\yazil\\Desktop\\Yazılım\\MustafaProje\\MongoDb\\CrudMongoDb\\CrudMongoDb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\yazil\\Desktop\\Yazılım\\MustafaProje\\MongoDb\\CrudMongoDb\\CrudMongoDb.csproj",
+        "projectName": "CrudMongoDb",
+        "projectPath": "C:\\Users\\yazil\\Desktop\\Yazılım\\MustafaProje\\MongoDb\\CrudMongoDb\\CrudMongoDb.csproj",
+        "packagesPath": "C:\\Users\\yazil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yazil\\Desktop\\Yazılım\\MustafaProje\\MongoDb\\CrudMongoDb\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yazil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\yazil\\Desktop\\Yazılım\\MustafaProje\\MongoDb\\MongoDb.BLL\\MongoDb.BLL.csproj": {
+                "projectPath": "C:\\Users\\yazil\\Desktop\\Yazılım\\MustafaProje\\MongoDb\\MongoDb.BLL\\MongoDb.BLL.csproj"
+              },
+              "C:\\Users\\yazil\\Desktop\\Yazılım\\MustafaProje\\MongoDb\\MongoDb.Common\\MongoDb.Common.csproj": {
+                "projectPath": "C:\\Users\\yazil\\Desktop\\Yazılım\\MustafaProje\\MongoDb\\MongoDb.Common\\MongoDb.Common.csproj"
+              },
+              "C:\\Users\\yazil\\Desktop\\Yazılım\\MustafaProje\\MongoDb\\MongoDb.DAL\\MongoDb.DAL.csproj": {
+                "projectPath": "C:\\Users\\yazil\\Desktop\\Yazılım\\MustafaProje\\MongoDb\\MongoDb.DAL\\MongoDb.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\yazil\\Desktop\\Yazılım\\MustafaProje\\MongoDb\\MongoDb.BLL\\MongoDb.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\yazil\\Desktop\\Yazılım\\MustafaProje\\MongoDb\\MongoDb.BLL\\MongoDb.BLL.csproj",
+        "projectName": "MongoDb.BLL",
+        "projectPath": "C:\\Users\\yazil\\Desktop\\Yazılım\\MustafaProje\\MongoDb\\MongoDb.BLL\\MongoDb.BLL.csproj",
+        "packagesPath": "C:\\Users\\yazil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yazil\\Desktop\\Yazılım\\MustafaProje\\MongoDb\\MongoDb.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yazil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\yazil\\Desktop\\Yazılım\\MustafaProje\\MongoDb\\MongoDb.Common\\MongoDb.Common.csproj": {
+                "projectPath": "C:\\Users\\yazil\\Desktop\\Yazılım\\MustafaProje\\MongoDb\\MongoDb.Common\\MongoDb.Common.csproj"
+              },
+              "C:\\Users\\yazil\\Desktop\\Yazılım\\MustafaProje\\MongoDb\\MongoDb.DAL\\MongoDb.DAL.csproj": {
+                "projectPath": "C:\\Users\\yazil\\Desktop\\Yazılım\\MustafaProje\\MongoDb\\MongoDb.DAL\\MongoDb.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\yazil\\Desktop\\Yazılım\\MustafaProje\\MongoDb\\MongoDb.Common\\MongoDb.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\yazil\\Desktop\\Yazılım\\MustafaProje\\MongoDb\\MongoDb.Common\\MongoDb.Common.csproj",
+        "projectName": "MongoDb.Common",
+        "projectPath": "C:\\Users\\yazil\\Desktop\\Yazılım\\MustafaProje\\MongoDb\\MongoDb.Common\\MongoDb.Common.csproj",
+        "packagesPath": "C:\\Users\\yazil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yazil\\Desktop\\Yazılım\\MustafaProje\\MongoDb\\MongoDb.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yazil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.23.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\yazil\\Desktop\\Yazılım\\MustafaProje\\MongoDb\\MongoDb.DAL\\MongoDb.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\yazil\\Desktop\\Yazılım\\MustafaProje\\MongoDb\\MongoDb.DAL\\MongoDb.DAL.csproj",
+        "projectName": "MongoDb.DAL",
+        "projectPath": "C:\\Users\\yazil\\Desktop\\Yazılım\\MustafaProje\\MongoDb\\MongoDb.DAL\\MongoDb.DAL.csproj",
+        "packagesPath": "C:\\Users\\yazil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yazil\\Desktop\\Yazılım\\MustafaProje\\MongoDb\\MongoDb.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yazil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\yazil\\Desktop\\Yazılım\\MustafaProje\\MongoDb\\MongoDb.Common\\MongoDb.Common.csproj": {
+                "projectPath": "C:\\Users\\yazil\\Desktop\\Yazılım\\MustafaProje\\MongoDb\\MongoDb.Common\\MongoDb.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
